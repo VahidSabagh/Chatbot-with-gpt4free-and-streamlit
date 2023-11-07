@@ -17,7 +17,7 @@ st.markdown('<br>', unsafe_allow_html=True)  # ایجاد یک خط خالی ب�
 
 st.write(f'<div style="font-family: iransans; text-align: center;">هر سوالی دوست داری بپرس</div>', unsafe_allow_html=True)
 inp = st.text_area('', key="text_area", value="", placeholder="Send a message")
-# inp = st.text_area("هر سوالی دوست داری بپرس")
+
 
 
 ok = st.button('جواب بده')
